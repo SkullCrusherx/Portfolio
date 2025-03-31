@@ -6,7 +6,7 @@ body {
     color: #333;
     background-color:#e4f5f1;
 }
-#Skills ul {
+#Skills{
   list-style-type: none;
   margin: 0;
   padding: 0;
