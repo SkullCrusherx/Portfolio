@@ -6,10 +6,14 @@ body {
     color: #333;
     background-color:#e4f5f1;
 }
-section #Skills{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* style.css */
+ul {
+    list-style-type: none;
+    margin: 0; /* Optional: Adjust margin */
+    padding: 0; /* Optional: Adjust padding */
+}
+#skills-list {
+    list-style-type: none;
 }
 #projects{
     list-style-type: none;
