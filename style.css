@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #07fc03;
+    color: #ebf7eb;
     background-color:#000000;
 }
 /* style.css */
@@ -37,14 +37,14 @@ nav {
     padding: 10px 0;
 }
 nav a {
-    color: #07fc03;
+    color: #ebf7eb;
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
 h2 {
-    color: #07fc03;
+    color: #ebf7eb;
 }
 footer {
     background-color: #333;
