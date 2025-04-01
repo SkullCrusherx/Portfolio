@@ -22,7 +22,7 @@ ul {
 }
 header {
     background-color: #333;
-    color: #fff;
+    color: #07fc03;
     padding: 20px;
     text-align: center;
 }
@@ -37,18 +37,18 @@ nav {
     padding: 10px 0;
 }
 nav a {
-    color: #fff;
+    color: #07fc03;
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
 h2 {
-    color: #333;
+    color: #07fc03;
 }
 footer {
     background-color: #333;
-    color: #fff;
+    color: #07fc03;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
