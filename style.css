@@ -17,6 +17,7 @@ a:hover{
   background-color: #3d001a;
   padding: 30px;
   border-radius: 20px;
+  transition: 0.6s;
 }
 #skills-list {
     list-style-type: none;
