@@ -12,6 +12,10 @@ ul {
     margin: 0; /* Optional: Adjust margin */
     padding: 0; /* Optional: Adjust padding */
 }
+a:hover{
+ background-color: yellow;
+  font-size: 18px;
+}
 #skills-list {
     list-style-type: none;
 }
