@@ -13,7 +13,8 @@ ul {
     padding: 0; /* Optional: Adjust padding */
 }
 a:hover{
- background-color: yellow;
+ color : 
+ background-color: #0054e6;
   font-size: 18px;
 }
 #skills-list {
