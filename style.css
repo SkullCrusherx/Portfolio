@@ -14,7 +14,7 @@ ul {
 }
 nav a:hover{
   color: #010f5e;
-  background-color: #737899;
+  background-color: #d9defa;
   padding: 25px;
   transition: 0.6s;
 }
