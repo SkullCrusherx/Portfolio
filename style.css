@@ -59,3 +59,9 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+.glow-text {
+  color: #ffffff; /* Base text color */
+  font-size: 48px; /* Adjust the font size */
+  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00; /* Glowing effect */
+  text-align: center; /* Center the text */
+}
