@@ -5,30 +5,50 @@ body {
     line-height: 1.6;
     color: #ebf7eb;
     background-color: #000000;
+    display: flex; /* Enables sidebar + content layout */
 }
 
-/* Remove default list styles */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Sidebar Navigation */
+.sidebar {
+    width: 220px;
+    background-color: #444;
+    height: 100vh; /* Full height */
+    position: fixed; /* Stays on the left */
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-nav a:hover {
+.sidebar a {
+    color: #ebf7eb;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.sidebar a:hover {
     color: #070c29;
     background-color: #d9defa;
-    padding: 22px;
     transition: 0.6s;
 }
 
-#skills-list {
-    list-style-type: none;
+/* Main content shifts right to make space for sidebar */
+main {
+    margin-left: 240px; /* Push content to the right */
+    padding: 20px;
+    flex: 1;
 }
 
-#projects {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Sections */
+section {
+    padding: 20px;
+    text-align: center;
 }
 
 header {
@@ -36,24 +56,8 @@ header {
     color: #07fc03;
     padding: 20px;
     text-align: center;
-}
-
-section {
-    padding: 20px;
-    text-align: center;
-}
-
-nav {
-    text-align: center;
-    background-color: #444;
-    padding: 10px 0;
-}
-
-nav a {
-    color: #ebf7eb;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
+    width: 100%;
+    margin-left: 240px; /* Align with main content */
 }
 
 h2 {
@@ -66,6 +70,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    margin-left: 240px; /* Align with main content */
 }
 
 .glow-text {
@@ -78,19 +83,19 @@ footer {
     text-align: center;
 }
 
-/* Certificates styling */
-#skills-list h3 {
+/* Certificates & Profiles styling */
+#skills-list h3, #profiles h2 {
     color: #07fc03;
     margin-top: 20px;
 }
 
-#skills-list ul li a {
+#skills-list ul li a, #profiles ul li a {
     color: #00ffcc;
     text-decoration: none;
     font-weight: bold;
 }
 
-#skills-list ul li a:hover {
+#skills-list ul li a:hover, #profiles ul li a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
